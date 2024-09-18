@@ -32,7 +32,7 @@ export default function WeatherPage() {
           />
           {error && (
             <div className="bg-red-500 mt-2 p-1 rounded">
-              <h1 className="font-bold">Nor Found City</h1>
+              <h1 className="font-bold">Not Found City</h1>
             </div>
           )}
         </div>
